@@ -12,7 +12,7 @@ import com.in28minutes.microservices.limitsservice.configuration.Configuration;
 
 @Component
 public class LimitController {
-	@Autowired
+	
 	private Configuration configuration;
 
 	@GetMapping("/limits")
