@@ -16,6 +16,7 @@ public class LimitController {
 	//This is Dependency injection
 	//This is Dependency injection ok
 	@Autowired
+	
 	private Configuration configuration;
 
 	@GetMapping("/limits")
