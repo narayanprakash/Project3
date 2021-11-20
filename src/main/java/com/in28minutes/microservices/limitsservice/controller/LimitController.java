@@ -14,6 +14,7 @@ import com.in28minutes.microservices.limitsservice.configuration.Configuration;
 public class LimitController {
 
 	//This is Dependency injection
+	//This is Dependency injection ok
 	@Autowired
 	private Configuration configuration;
 
