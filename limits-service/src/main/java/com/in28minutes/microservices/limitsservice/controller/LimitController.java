@@ -12,8 +12,8 @@ import com.in28minutes.microservices.limitsservice.configuration.Configuration;
 public class LimitController {
 	@Autowired
 	private Configuration configuration;
-
-	@PostMapping("/limits")
+	
+	@PostMapping("/api/limits")
 	public Limit retrieveLimits() {
 		return new Limit(configuration.getMinimum(), configuration.getMaximum());
 	}
